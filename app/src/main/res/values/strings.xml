@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Suraksha</string>
+    <string name="title_activity_saving_activity">saving_activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="setting">Settings</string>
+    <string name="instruction">Instructions</string>
+    <string name="news">News</string>
+    <string name="choose_buttons">Detect Spy</string>
+    <string name="instructions">Instructions</string>
+    <string name="settings">Settings</string>
+    <string name="warning">Warning to accept permission!</string>
+    <string name="google_maps_api_key">AIzaSyD1o_WmNskKB8qjN8LE_IlTzfJmu86IIok</string>
+    <string name="give_review"><a href="https://forms.gle/BFH8DMb7sasP4zWL7">Give Review</a></string>
+    <string name="review_message"><a href="https://forms.gle/BFH8DMb7sasP4zWL7">Write new feature ideas and review of this application.</a></string>
+    <string name="developer">Developed by Satyam Sharma</string>
+    <string name="add_emergency_contact">Add Emergency Contact</string>
+    <string name="women_in_distress">Women In Distress</string>
+    <string name="domestic_abuse">Domestic Abuse</string>
+    <string name="police">Police</string>
+    <string name="child_helpline">Child Helpline</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="fire_brigade">Fire Brigade</string>
+    <string name="senior_citizen">Senior Citizen</string>
+    <string name="detailed_instructions">Detailed instructions</string>
+    <string name="steps">\nStep 1:- Allow for all the permissions, and Allow battery optimization.\n\nStep 2:- Save relative\'s phone number, max. 5 are allowed.\n\nStep 3:- After that, you\'re just safe.\n\nNote:- A message will show when message is sent.</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="welcome_text">Hi, Welcome to Suraksha!</string>
+    <string name="tagline">Stay fearless and confident with Suraksha - your personal safety guardian.</string>
+    <string name="add_the_emergency_contacts">Add the Emergency Contacts</string>
+    <string name="emergency_nhelplines">Emergency\nHelplines</string>
+    <string name="fake_siren_alert">Fake\nSiren Alert</string>
+    <string name="sos_message">Add the contacts from your list whom you wanted to send the SOS messages.</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SmsActivity">
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="#0F9D58"
+        android:bottomLeftRadius="20dp"
+        android:bottomRightRadius="20dp"
+        android:text="@string/add_emergency_contact"
+        android:textColor="#212121"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp"
+        tools:ignore="VisualLintButtonSize" />
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
