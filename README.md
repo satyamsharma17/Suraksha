@@ -1,4 +1,4 @@
-
+    
 # Suraksha: Stay one step ahead of danger
 
 ![Suraksha Logo](https://github.com/vivek-344/Suraksha/blob/master/app/src/main/res/drawable/suraksha_banner.png)

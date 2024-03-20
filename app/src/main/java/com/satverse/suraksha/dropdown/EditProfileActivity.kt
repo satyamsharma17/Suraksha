@@ -89,7 +89,7 @@ class EditProfileActivity : AppCompatActivity() {
 
         val client = Client(this)
             .setEndpoint("https://cloud.appwrite.io/v1")
-            .setProject("64bb859f2d53d0d44e9c")
+            .setProject("65fa760fe93c38713a0f")
             .setSelfSigned(true)
 
         val account = Account(client)
@@ -101,8 +101,8 @@ class EditProfileActivity : AppCompatActivity() {
 
             if (userId != null) {
                 val data = userDatabase.getDocument(
-                    databaseId = "64bc1e13ca662cd39b95",
-                    collectionId = "64bc1e1e7465e6d3e4c2",
+                    databaseId = "65fa7775b4fd1085e3e6",
+                    collectionId = "65fa77f362e01ec73987",
                     documentId = userId
                 )
 
@@ -144,7 +144,7 @@ class EditProfileActivity : AppCompatActivity() {
 
         val client = Client(this)
             .setEndpoint("https://cloud.appwrite.io/v1")
-            .setProject("64bb859f2d53d0d44e9c")
+            .setProject("65fa760fe93c38713a0f")
             .setSelfSigned(true)
 
         val fullName = findViewById<TextInputEditText>(R.id.name).text.toString().trim()
@@ -166,8 +166,8 @@ class EditProfileActivity : AppCompatActivity() {
             if (userId != null) {
 
                 userDatabase.updateDocument(
-                    databaseId = "64bc1e13ca662cd39b95",
-                    collectionId = "64bc1e1e7465e6d3e4c2",
+                    databaseId = "65fa7775b4fd1085e3e6",
+                    collectionId = "65fa77f362e01ec73987",
                     documentId = userId,
                     data = mapOf(
                         "fullName" to fullName,

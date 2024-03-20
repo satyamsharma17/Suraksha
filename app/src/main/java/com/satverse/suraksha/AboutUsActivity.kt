@@ -73,58 +73,6 @@ class AboutUsActivity : AppCompatActivity() {
         findViewById<Button>(R.id.rateusButton).setOnClickListener {
             openURL("https://play.google.com/store/apps/details?id=com.satverse.suraksha")
         }
-
-        findViewById<Button>(R.id.vivekTwitterButton).setOnClickListener {
-            openURL("https://twitter.com/vivekraj344")
-        }
-
-        findViewById<Button>(R.id.vivekGitHubButton).setOnClickListener {
-            openURL("https://www.github.com/vivek-344")
-        }
-
-        findViewById<ImageView>(R.id.vivek_image).setOnClickListener {
-            openURL("https://www.instagram.com/vivek.4343/")
-        }
-
-        findViewById<Button>(R.id.satyamLinkedinButton).setOnClickListener {
-            openURL("https://linkedin.com/in/iamsatyam17")
-        }
-
-        findViewById<Button>(R.id.satyamGitHubButton).setOnClickListener {
-            openURL("https://www.github.com/satyamsharma17")
-        }
-
-        findViewById<ImageView>(R.id.satyam_image).setOnClickListener {
-            openURL("https://www.instagram.com/iamsatyam17/")
-        }
-
-        findViewById<Button>(R.id.shreyaLinkedinButton).setOnClickListener {
-            openURL("https://linkedin.com/in/shreya-shukla-8b87a3231")
-        }
-
-        findViewById<Button>(R.id.shreyaGitHubButton).setOnClickListener {
-            openURL("https://www.github.com/Shreya984")
-        }
-
-        findViewById<Button>(R.id.yashTwitterButton).setOnClickListener {
-            openURL("https://www.twitter.com/yash_darbar16")
-        }
-
-        findViewById<Button>(R.id.yashGitHubButton).setOnClickListener {
-            openURL("https://www.github.com/yashdarbar")
-        }
-
-        findViewById<Button>(R.id.vanshiLinkedinButton).setOnClickListener {
-            openURL("https://linkedin.com/in/vanshii24")
-        }
-
-        findViewById<Button>(R.id.vanshiGitHubButton).setOnClickListener {
-            openURL("https://www.github.com/vanshi24")
-        }
-
-        findViewById<ImageView>(R.id.vanshi_image).setOnClickListener {
-            openURL("https://www.instagram.com/_vanshi._24/")
-        }
     }
 
     @Deprecated("Deprecated in Java")
